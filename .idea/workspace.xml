@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bebdcb3d-956e-421e-8325-d083850ce2df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s_drzewiasta/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s_drzewiasta/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s_drzewiasta/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s_drzewiasta/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_drzewiasta/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_drzewiasta/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s_drzewiasta/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_drzewiasta/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_drzewiasta/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_drzewiasta/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/resources/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s_drzewiasta/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_drzewiasta/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s_drzewiasta/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,6 +76,13 @@
       </path>
     </expand>
     <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -235,7 +235,7 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bab0ec96" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@58a7713e" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@299fcc84" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -258,7 +258,7 @@
       <workItem from="1618393156253" duration="5844000" />
       <workItem from="1618399315916" duration="7529000" />
       <workItem from="1618412345034" duration="11518000" />
-      <workItem from="1618473373769" duration="2730000" />
+      <workItem from="1618473373769" duration="31395000" />
     </task>
     <servers />
   </component>

@@ -1906,6 +1906,8 @@ var app = new Vue({
 
 __webpack_require__(/*! bootstrap-treeview/dist/bootstrap-treeview.min.js */ "./node_modules/bootstrap-treeview/dist/bootstrap-treeview.min.js");
 
+__webpack_require__(/*! ./sort */ "./resources/js/sort.js");
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -1949,6 +1951,86 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/sort.js":
+/*!******************************!*\
+  !*** ./resources/js/sort.js ***!
+  \******************************/
+/***/ (() => {
+
+var nodes = [];
+var indexes = [];
+var done = [];
+var i = 0;
+data.forEach(function (branch, index) {
+  if (branch.parent_id === 0) {
+    nodes.push(branch);
+    indexes.push({
+      id: branch.id,
+      pos: [i]
+    });
+    i++;
+    done.push(index);
+  }
+});
+
+function sort() {
+  data.forEach(function (branch, index) {
+    if (done.includes(index)) return;
+
+    try {
+      var position = indexes.find(function (elem) {
+        return elem.id === branch.parent_id;
+      }).pos;
+    } catch (_unused) {}
+
+    if (position !== undefined) {
+      indexes.push({
+        id: branch.id,
+        pos: []
+      });
+      var string = "";
+      position.forEach(function (index, i) {
+        console.log(i);
+        string += "nodes[" + index + "]";
+        indexes.find(function (elem) {
+          return elem.id === branch.id;
+        }).pos.push(index);
+
+        if (position.length === ++i) {
+          string += ".nodes";
+          console.log(string);
+          var x = eval(string);
+
+          if (x === undefined) {
+            string += " = []";
+            x = eval(string);
+            indexes.find(function (elem) {
+              return elem.id === branch.id;
+            }).pos.push(0);
+          } else {
+            indexes.find(function (elem) {
+              return elem.id === branch.id;
+            }).pos.push(x.length);
+          }
+
+          x.push(branch);
+          done.push(index);
+        }
+      });
+    }
+  });
+}
+
+while (done.length !== data.length) {
+  sort();
+}
+
+$('#tree').treeview({
+  'data': nodes
+});
 
 /***/ }),
 
