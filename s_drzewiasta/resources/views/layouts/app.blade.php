@@ -74,6 +74,9 @@
                                 </div>
                             </li>
                         @endguest
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('struct') }}">Struktura drzewiasta</a>
+                        </li>
                     </ul>
                 </div>
             </div>

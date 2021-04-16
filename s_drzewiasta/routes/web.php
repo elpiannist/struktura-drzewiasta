@@ -23,4 +23,4 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/struct', [BranchesController::class, 'getBranches']);
-Route::post('/struct',[BranchesController::class, 'updateBranches']);
+Route::post('/struct',[BranchesController::class, 'updateBranches'])->name('struct');
