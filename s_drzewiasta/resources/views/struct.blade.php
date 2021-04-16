@@ -2,58 +2,17 @@
 <script>var data = {!! $data !!};</script>
 @section('content')
 
-
+    <button class="button btn" onClick="$('#tree').treeview('collapseAll');">Zwiń</button>
+    <button class="button btn" onClick="$('#tree').treeview('expandAll');">Rozwiń</button>
+    @auth
+    @if($is_admin == true)
+        <button class="button btn" onClick="add()">Dodaj</button>
+        <button class="button btn" onClick="remove()">Usuń</button>
+        <button class="button btn" onClick="edit()">Edytuj</button>
+        <input type="text" id="addtext" name="addtext" placeholder="nazwa gałęzi">
+        <button class="button btn-primary" onClick="send()">Zaktualizuj</button>
+    @endif
+    @endauth
     <div id="tree"></div>
 
 @endsection
-<script>
-{{--    var data = [];--}}
-{{--    var nodes = [];--}}
-{{--    var indexes = [];--}}
-{{--    var done = [];--}}
-{{--    data = {!! $data !!};--}}
-{{--    var i = 0;--}}
-{{--    data.forEach(function (branch, index) {--}}
-{{--        if (branch.parent_id === 0) {--}}
-{{--            nodes.push(branch);--}}
-{{--            indexes.push({id: branch.id, pos: [i]});--}}
-{{--            i++;--}}
-{{--            done.push(index);--}}
-{{--        }--}}
-{{--    });--}}
-{{--function sort() {--}}
-{{--        data.forEach(function(branch,index){--}}
-{{--            if(done.includes(index)) return;--}}
-{{--            try {--}}
-{{--                var position = indexes.find(elem => elem.id === branch.parent_id).pos;--}}
-{{--            } catch {--}}
-{{--            }--}}
-{{--            if (position !== undefined) {--}}
-{{--                indexes.push({id: branch.id, pos: []});--}}
-{{--                var string = "";--}}
-{{--                position.forEach(function (index, i) {--}}
-{{--                    console.log(i);--}}
-{{--                    string += "nodes[" + index + "]";--}}
-{{--                    indexes.find(elem => elem.id === branch.id).pos.push(index);--}}
-{{--                    if (position.length === ++i) {--}}
-{{--                        string += ".nodes";--}}
-{{--                        console.log(string);--}}
-{{--                        var x = eval(string);--}}
-
-{{--                        if (x === undefined) {--}}
-{{--                            string += " = []";--}}
-{{--                            x = eval(string);--}}
-{{--                            indexes.find(elem => elem.id === branch.id).pos.push(0);--}}
-{{--                        } else {--}}
-{{--                            indexes.find(elem => elem.id === branch.id).pos.push(x.length);--}}
-{{--                        }--}}
-{{--                        x.push(branch);--}}
-{{--                        done.push(index);--}}
-{{--                    }--}}
-{{--                });--}}
-{{--            }--}}
-{{--    });--}}
-{{--}--}}
-{{--while(done.length !== data.length)sort();--}}
-
-</script>

@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Branch extends Model
 {
     use HasFactory;
-    protected $fillable = ['parent_id', 'text'];
+    protected $fillable = ['parent_id', 'text', 'id'];
 }

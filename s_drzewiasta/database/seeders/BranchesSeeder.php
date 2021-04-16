@@ -15,7 +15,7 @@ class BranchesSeeder extends Seeder
     public function run()
     {
         DB::table('branches')->insert([
-            ['text' => 'Historyczne'],
+            ['text' => 'Powieści historyczne'],
             ['text' => 'Sci-Fi'],
             ['text' => 'Fantasy'],
             ['text' => 'Komiksy']

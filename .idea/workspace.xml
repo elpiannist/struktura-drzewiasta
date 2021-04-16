@@ -3,12 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="bebdcb3d-956e-421e-8325-d083850ce2df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_drzewiasta/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_drzewiasta/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_drzewiasta/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_drzewiasta/app/Http/Controllers/BranchesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/app/Http/Controllers/BranchesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_drzewiasta/app/Models/Branch.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/app/Models/Branch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_drzewiasta/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_drzewiasta/database/migrations/2021_04_14_134545_create_branches_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/database/migrations/2021_04_14_134545_create_branches_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_drzewiasta/database/seeders/BranchesSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/database/seeders/BranchesSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s_drzewiasta/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_drzewiasta/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/resources/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_drzewiasta/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_drzewiasta/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_drzewiasta/resources/js/sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/resources/js/sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_drzewiasta/resources/views/struct.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/resources/views/struct.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s_drzewiasta/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,6 +79,9 @@
       </path>
     </expand>
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="untitled" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -230,12 +236,17 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bab0ec96" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ee683a92" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bab0ec96" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@299fcc84" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ee683a92" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@9e753bb" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ee683a92" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3c11dd7e" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -258,7 +269,8 @@
       <workItem from="1618393156253" duration="5844000" />
       <workItem from="1618399315916" duration="7529000" />
       <workItem from="1618412345034" duration="11518000" />
-      <workItem from="1618473373769" duration="31395000" />
+      <workItem from="1618473373769" duration="43859000" />
+      <workItem from="1618553337726" duration="18937000" />
     </task>
     <servers />
   </component>
