@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bebdcb3d-956e-421e-8325-d083850ce2df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/s_drzewiasta/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_drzewiasta/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_drzewiasta/app/Http/Controllers/BranchesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/s_drzewiasta/app/Http/Controllers/BranchesController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -232,7 +232,7 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ee683a92" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@9e753bb" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@41ad748e" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -256,7 +256,7 @@
       <workItem from="1618399315916" duration="7529000" />
       <workItem from="1618412345034" duration="11518000" />
       <workItem from="1618473373769" duration="43859000" />
-      <workItem from="1618553337726" duration="19511000" />
+      <workItem from="1618553337726" duration="21046000" />
     </task>
     <servers />
   </component>
